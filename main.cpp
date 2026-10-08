@@ -42,16 +42,10 @@ int main()
         }
         if (estPremier)
         {
-            if (iAffichage % nbcolones == 0)
-            {
+            if (iAffichage % nbcolones == 0) {
                 cout << '\n';
-                cout << setw(10) << iNombre;
-                iAffichage = 0;
             }
-            else
-            {
-                cout << setw(10) << iNombre;
-            }
+            cout << setw(10) << iNombre;
             iAffichage++;
         }
     }
