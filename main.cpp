@@ -13,7 +13,7 @@ int main()
 
         const int maxNumber = 1000;
         const int nbcolones =5; //Nombre de colones affichage
-        const int debutListe = 2; // Le premier nombre premier est obligatoirement 1
+        const int debutListe = 2;
         int finListe = 0; // Sera saisie par l'utilisateur.
 
         cout << "Ce programme affiche tous les nombres premiers situes entre 1 et une limite saisie."
